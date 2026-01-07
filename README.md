@@ -22,7 +22,7 @@ USB SSDs, and Samba.
 
 ## Final Result
 - IOWAIT reduced from ~60% → <3%
-- Backup throughput ~480 Mbps+
+- Backup throughput ~480 Mbps+ on Wifi and ~828 Mbps Peak on Gigabit Ethernet
 - Clear separation of hot vs cold storage
 
 [Architecture Overview](architecture/overview.md)
