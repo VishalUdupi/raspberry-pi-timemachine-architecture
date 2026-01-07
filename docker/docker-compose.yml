@@ -1,0 +1,10 @@
+## Docker Compose Design
+
+Each service in the compose file has a single responsibility.
+
+- The Time Machine container writes only to the hot storage tier
+- The archive container exposes only completed backups
+- The monitoring container has no storage responsibilities
+
+This separation ensures that performance issues in one service do not cascade
+into others.
